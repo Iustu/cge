@@ -1,0 +1,1487 @@
+CRITICAL - 2023-05-12 15:05:20 --> Invalid file: "atributos/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributos/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributos/home', [], true)
+ 3 APPPATH\Controllers\Atributo.php(24): view('atributos/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Atributo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 15:05:26 --> Invalid file: "atributos/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributos/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributos/home', [], true)
+ 3 APPPATH\Controllers\Atributo.php(24): view('atributos/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Atributo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 15:05:57 --> Invalid file: "atributos/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributos/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributos/home', [], true)
+ 3 APPPATH\Controllers\Atributo.php(24): view('atributos/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Atributo->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 15:13:00 --> Invalid file: "atributo/sucesso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo/sucesso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo/sucesso', [], true)
+ 3 APPPATH\Controllers\Atributo.php(40): view('atributo/sucesso')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Atributo->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 15:13:16 --> Invalid file: "atributo/sucesso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo/sucesso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo/sucesso', [], true)
+ 3 APPPATH\Controllers\Atributo.php(40): view('atributo/sucesso')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Atributo->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 15:13:44 --> Invalid file: "atributo/sucesso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo/sucesso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo/sucesso', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(37): view('atributo/sucesso')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:50:17 --> Invalid file: "atributo_pessoas/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo_pessoas/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo_pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('atributo_pessoas/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:50:25 --> Invalid file: "atributo_pessoas/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo_pessoas/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo_pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('atributo_pessoas/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:52:15 --> Invalid file: "atributo_pessoas/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo_pessoas/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo_pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('atributo_pessoas/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:52:16 --> Invalid file: "atributo_pessoas/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo_pessoas/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo_pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('atributo_pessoas/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:52:17 --> Invalid file: "atributo_pessoas/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo_pessoas/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo_pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('atributo_pessoas/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:52:19 --> Invalid file: "atributo_pessoas/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo_pessoas/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo_pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('atributo_pessoas/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:52:52 --> Invalid file: "atributo_pessoas/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo_pessoas/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo_pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('atributo_pessoas/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:53:09 --> Invalid file: "atributo_pessoas/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('atributo_pessoas/home.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributo_pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('atributo_pessoas/home')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:56:52 --> Undefined variable $titulo
+in APPPATH\Views\Atributos_Pessoas\home.php on line 5.
+ 1 APPPATH\Views\Atributos_Pessoas\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Atributos_Pessoas\\home.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Atributos_Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributos_pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(59): view('atributos_pessoas/home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:56:55 --> Undefined variable $titulo
+in APPPATH\Views\Atributos_Pessoas\home.php on line 5.
+ 1 APPPATH\Views\Atributos_Pessoas\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Atributos_Pessoas\\home.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Atributos_Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributos_pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(59): view('atributos_pessoas/home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:57:08 --> Undefined variable $titulo
+in APPPATH\Views\Pessoas\home.php on line 5.
+ 1 APPPATH\Views\Pessoas\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(59): view('pessoas/home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:57:20 --> Invalid file: "pessoas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('pessoas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:57:54 --> Invalid file: "pessoa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoa', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('pessoa')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:57:54 --> Invalid file: "pessoa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoa', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('pessoa')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:57:56 --> Invalid file: "pessoa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoa', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('pessoa')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:58:13 --> Invalid file: "pessoa/sucesso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoa/sucesso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoa/sucesso', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('pessoa/sucesso')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:58:15 --> Invalid file: "pessoa/sucesso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoa/sucesso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoa/sucesso', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(59): view('pessoa/sucesso')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 17:58:41 --> Undefined variable $titulo
+in APPPATH\Views\Pessoas\home.php on line 5.
+ 1 APPPATH\Views\Pessoas\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(59): view('pessoas/home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:04:29 --> Object of class App\Controllers\AtributoPessoa could not be converted to string
+in APPPATH\Controllers\Pessoa.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->atributos('9')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:15:12 --> Undefined variable $pessoa
+in APPPATH\Views\AtributosPessoas\home.php on line 17.
+ 1 APPPATH\Views\AtributosPessoas\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributosPessoas/home', [], true)
+ 5 APPPATH\Controllers\AtributoPessoa.php(29): view('atributosPessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AtributoPessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoPessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:15:15 --> Undefined variable $pessoa
+in APPPATH\Views\AtributosPessoas\home.php on line 17.
+ 1 APPPATH\Views\AtributosPessoas\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributosPessoas/home', [], true)
+ 5 APPPATH\Controllers\AtributoPessoa.php(29): view('atributosPessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AtributoPessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoPessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:15:38 --> Undefined variable $pessoa
+in APPPATH\Views\AtributosPessoas\home.php on line 17.
+ 1 APPPATH\Views\AtributosPessoas\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributosPessoas/home', [], true)
+ 5 APPPATH\Controllers\AtributoPessoa.php(29): view('atributosPessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AtributoPessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoPessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:15:41 --> Undefined variable $pessoa
+in APPPATH\Views\AtributosPessoas\home.php on line 17.
+ 1 APPPATH\Views\AtributosPessoas\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributosPessoas/home', [], true)
+ 5 APPPATH\Controllers\AtributoPessoa.php(29): view('atributosPessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AtributoPessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoPessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:15:57 --> Undefined variable $pessoa
+in APPPATH\Views\AtributosPessoas\home.php on line 17.
+ 1 APPPATH\Views\AtributosPessoas\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributosPessoas/home', [], true)
+ 5 APPPATH\Controllers\AtributoPessoa.php(29): view('atributosPessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AtributoPessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoPessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:16:06 --> Undefined variable $pessoa
+in APPPATH\Views\AtributosPessoas\home.php on line 17.
+ 1 APPPATH\Views\AtributosPessoas\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributosPessoas/home', [], true)
+ 5 APPPATH\Controllers\AtributoPessoa.php(29): view('atributosPessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AtributoPessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoPessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:16:31 --> Undefined variable $pessoa
+in APPPATH\Views\AtributosPessoas\home.php on line 17.
+ 1 APPPATH\Views\AtributosPessoas\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributospessoas/home', [], true)
+ 5 APPPATH\Controllers\AtributoPessoa.php(29): view('atributospessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AtributoPessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoPessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:16:33 --> Undefined variable $pessoa
+in APPPATH\Views\AtributosPessoas\home.php on line 17.
+ 1 APPPATH\Views\AtributosPessoas\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\AtributosPessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('atributospessoas/home', [], true)
+ 5 APPPATH\Controllers\AtributoPessoa.php(29): view('atributospessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AtributoPessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AtributoPessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:19:28 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:19:59 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:20:31 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:20:33 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:20:55 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:21:14 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:21:23 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:22:32 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:22:58 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:23:00 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:23:02 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:24:00 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:24:07 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:24:41 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:24:43 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:26:40 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:26:45 --> Class "App\Controllers\AtributoPessoaModel" not found
+in APPPATH\Controllers\AtributoPessoa.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AtributoPessoa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:35:19 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:35:25 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:35:27 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:35:54 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:36:06 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:36:06 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:36:06 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:36:09 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:47:26 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Relacao.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('relacao')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('relacao')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('relacao')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:47:36 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Relacao.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('relacao')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('relacao')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('relacao')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:47:51 --> syntax error, unexpected token "{", expecting "function" or "const"
+in APPPATH\Controllers\Relacao.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('relacao')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('relacao')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('relacao')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:48:06 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:49:32 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:49:33 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:49:34 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:50:35 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:50:36 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:50:37 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:50:38 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:52:25 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:52:46 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:53:50 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:53:56 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:54:24 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:54:25 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 18:54:26 --> Class "App\Controllers\RelacaoModel" not found
+in APPPATH\Controllers\Relacao.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Relacao->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:43:56 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:44:08 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:44:08 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:45:56 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:46:15 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:46:45 --> Undefined variable $pessoa
+in APPPATH\Controllers\Relacao.php on line 30.
+ 1 APPPATH\Controllers\Relacao.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:46:47 --> Undefined variable $pessoa
+in APPPATH\Controllers\Relacao.php on line 30.
+ 1 APPPATH\Controllers\Relacao.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:46:58 --> Undefined variable $pessoa
+in APPPATH\Controllers\Relacao.php on line 30.
+ 1 APPPATH\Controllers\Relacao.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:52:26 --> Object of class App\Controllers\Relacao could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:52:26 --> Object of class App\Controllers\Relacao could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:52:26 --> Object of class App\Controllers\Relacao could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:52:28 --> Object of class App\Controllers\Relacao could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:52:36 --> Object of class App\Controllers\Relacao could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:52:38 --> Object of class App\Controllers\Relacao could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:52:48 --> Object of class App\Controllers\Relacao could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:52:50 --> Object of class App\Controllers\Relacao could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:54:20 --> Undefined variable $pessoa
+in APPPATH\Controllers\Relacao.php on line 33.
+ 1 APPPATH\Controllers\Relacao.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:54:23 --> Undefined variable $pessoa
+in APPPATH\Controllers\Relacao.php on line 33.
+ 1 APPPATH\Controllers\Relacao.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:55:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:55:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:55:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:55:43 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 24.
+ 1 APPPATH\Controllers\Relacao.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:55:43 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 24.
+ 1 APPPATH\Controllers\Relacao.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:55:44 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 24.
+ 1 APPPATH\Controllers\Relacao.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:56:07 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 24.
+ 1 APPPATH\Controllers\Relacao.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:56:08 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 24.
+ 1 APPPATH\Controllers\Relacao.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:56:14 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:56:15 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:56:46 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:56:47 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:56:47 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:57:16 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 19:57:16 --> Undefined array key "idPessoa"
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idPessoa"', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:04:17 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:04:19 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:04:55 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:04:55 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:04:56 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:09:38 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:09:39 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:11:26 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 35.
+ 1 APPPATH\Controllers\Relacao.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:11:27 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 35.
+ 1 APPPATH\Controllers\Relacao.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:11:35 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 35.
+ 1 APPPATH\Controllers\Relacao.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:11:35 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 35.
+ 1 APPPATH\Controllers\Relacao.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:11:45 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 39.
+ 1 APPPATH\Controllers\Relacao.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:12:46 --> Object of class App\Models\PessoaModel could not be converted to string
+in APPPATH\Controllers\Relacao.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:20:30 --> Invalid file: "sucessoExclusao.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sucessoExclusao.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sucessoExclusao', [], true)
+ 3 APPPATH\Controllers\Relacao.php(62): view('sucessoExclusao')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->remove('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:21:27 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:21:34 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:21:36 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:21:43 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:22:02 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:22:48 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:23:06 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:23:06 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:23:07 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:23:46 --> syntax error, unexpected token "/"
+in APPPATH\Controllers\Relacao.php on line 24.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('relacao')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('relacao')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('relacao')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:24:30 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:24:43 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 36.
+ 1 APPPATH\Controllers\Relacao.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:25:42 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:26:18 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:26:19 --> Undefined variable $dados
+in APPPATH\Controllers\Relacao.php on line 34.
+ 1 APPPATH\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:28:18 --> Invalid file: "sucessoExclusao.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sucessoExclusao.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sucessoExclusao', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(51): view('sucessoExclusao')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->remove('18')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:28:29 --> Invalid file: "sucessoExclusao.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sucessoExclusao.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sucessoExclusao', [], true)
+ 3 APPPATH\Controllers\Atributo.php(54): view('sucessoExclusao')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Atributo->remove('3')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:30:37 --> Undefined property: App\Controllers\Relacao::$pessoasModel
+in APPPATH\Controllers\Relacao.php on line 69.
+ 1 APPPATH\Controllers\Relacao.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Relacao::$pessoasModel', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->remove('2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:30:50 --> Invalid file: "sucessoExclusao.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sucessoExclusao.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sucessoExclusao', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(51): view('sucessoExclusao')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->remove('17')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-12 20:33:05 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkatributoId` FOREIGN KEY (`atributoId`) REFERENCES `atributos` (`atributoId`)) in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `at...', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `at...')
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `at...')
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `at...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\cge\app\Controllers\Atributo.php(53): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Atributo->remove('2')
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-12 20:33:05 --> Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkatributoId` FOREIGN KEY (`atributoId`) REFERENCES `atributos` (`atributoId`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `atributos`
+WHERE `atributoId` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `atributos`
+WHERE `atributoId` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `atributos`
+WHERE `atributoId` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `atributos`
+WHERE `atributoId` IN :atributoId:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Atributo.php(53): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Atributo->remove('2')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-12 20:34:10 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkatributoId` FOREIGN KEY (`atributoId`) REFERENCES `atributos` (`atributoId`)) in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `at...', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `at...')
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `at...')
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `at...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\cge\app\Controllers\Atributo.php(53): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Atributo->remove('2')
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-12 20:34:10 --> Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkatributoId` FOREIGN KEY (`atributoId`) REFERENCES `atributos` (`atributoId`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `atributos`
+WHERE `atributoId` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `atributos`
+WHERE `atributoId` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `atributos`
+WHERE `atributoId` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `atributos`
+WHERE `atributoId` IN :atributoId:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Atributo.php(53): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Atributo->remove('2')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Atributo))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-12 20:36:10 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`)) in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(50): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-12 20:36:10 --> Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN :pessoaId:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Pessoa.php(50): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-12 20:36:13 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`)) in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(50): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-12 20:36:13 --> Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN :pessoaId:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Pessoa.php(50): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-12 20:36:21 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`)) in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(50): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-12 20:36:21 --> Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN :pessoaId:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Pessoa.php(50): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:36:31 --> Undefined property: App\Controllers\Relacao::$pessoasModel
+in APPPATH\Controllers\Relacao.php on line 69.
+ 1 APPPATH\Controllers\Relacao.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Relacao::$pessoasModel', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->remove('2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-12 20:36:40 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`)) in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(50): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-12 20:36:40 --> Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN :pessoaId:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Pessoa.php(50): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-12 20:45:37 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`)) in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(49): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-12 20:45:37 --> Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN :pessoaId:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Pessoa.php(49): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->remove('9')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-12 20:55:13 --> Undefined property: App\Controllers\Relacao::$pessoasModel
+in APPPATH\Controllers\Relacao.php on line 69.
+ 1 APPPATH\Controllers\Relacao.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Relacao::$pessoasModel', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Relacao.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->remove('2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-12 21:13:13 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`)) in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\cge\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\xampp\htdocs\cge\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 E:\xampp\htdocs\cge\app\Controllers\Relacao.php(52): CodeIgniter\BaseModel->save(Array)
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Relacao->store()
+#10 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#11 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-05-12 21:13:13 --> Cannot add or update a child row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `relacao` (`pessoaId`, `atributoId`) VALUES (\'1\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `relacao` (`pessoaId`, `atributoId`) VALUES (\'1\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `relacao` (`pessoaId`, `atributoId`) VALUES (\'1\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `relacao` (`pessoaId`, `atributoId`) VALUES (:pessoaId:, :atributoId:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Relacao.php(52): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Relacao->store()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-12 21:23:13 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`)) in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(47): CodeIgniter\BaseModel->delete(Array)
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->remove('25')
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-12 21:23:13 --> Cannot delete or update a parent row: a foreign key constraint fails (`cge`.`relacao`, CONSTRAINT `fkpessoaId` FOREIGN KEY (`pessoaId`) REFERENCES `pessoas` (`pessoaId`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pessoas`
+WHERE `pessoaId` IN (\'25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pessoas`
+WHERE `pessoaId` IN :pessoaId:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Pessoa.php(47): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->remove('25')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')

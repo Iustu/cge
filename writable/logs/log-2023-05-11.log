@@ -1,0 +1,949 @@
+CRITICAL - 2023-05-11 03:14:13 --> Array to string conversion
+in APPPATH\Controllers\Pessoa.php on line 24.
+ 1 APPPATH\Controllers\Pessoa.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\xampp\\htdocs\\cge\\app\\Controllers\\Pessoa.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 03:35:33 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray('JOAO PEDRO RIBEIRO FERREIRA', 'insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert('JOAO PEDRO RIBEIRO FERREIRA', false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert('JOAO PEDRO RIBEIRO FERREIRA', false)
+ 4 APPPATH\Controllers\Pessoa.php(26): CodeIgniter\BaseModel->save('JOAO PEDRO RIBEIRO FERREIRA')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->store()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 03:38:14 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray('JOAO PEDRO RIBEIRO FERREIRA', 'insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert('JOAO PEDRO RIBEIRO FERREIRA', false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert('JOAO PEDRO RIBEIRO FERREIRA', false)
+ 4 APPPATH\Controllers\Pessoa.php(26): CodeIgniter\BaseModel->save('JOAO PEDRO RIBEIRO FERREIRA')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->store()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-11 03:48:55 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'pessoas' in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pessoas', 3307, '', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'pessoas' in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\cge\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\cge\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-11 03:48:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'pessoas'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-11 03:48:56 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'pessoas' in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pessoas', 3307, '', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'pessoas' in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\cge\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\cge\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-11 03:48:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'pessoas'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-11 03:48:57 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'pessoas' in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pessoas', 3307, '', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'pessoas' in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\cge\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\cge\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-11 03:48:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'pessoas'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+ERROR - 2023-05-11 03:49:28 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'pessoas' in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pessoas', 3307, '', 0)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\cge\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\cge\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#9 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'pessoas' in E:\xampp\htdocs\cge\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\cge\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\cge\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\cge\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\cge\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\cge\app\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\cge\system\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+#7 E:\xampp\htdocs\cge\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+#8 E:\xampp\htdocs\cge\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\cge\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\cge\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-11 03:49:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'pessoas'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pessoa.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 03:50:10 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray('JOAO PEDRO RIBEIRO FERREIRA', 'insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert('JOAO PEDRO RIBEIRO FERREIRA', false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert('JOAO PEDRO RIBEIRO FERREIRA', false)
+ 4 APPPATH\Controllers\Pessoa.php(32): CodeIgniter\BaseModel->save('JOAO PEDRO RIBEIRO FERREIRA')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->store()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:01:00 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray('JOAO PEDRO RIBEIRO FERREIRA', 'insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert('JOAO PEDRO RIBEIRO FERREIRA', false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert('JOAO PEDRO RIBEIRO FERREIRA', false)
+ 4 APPPATH\Controllers\Pessoa.php(32): CodeIgniter\BaseModel->save('JOAO PEDRO RIBEIRO FERREIRA')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->store()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:01:09 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray('JOÃO PEDRO RIBEIRO', 'insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert('JOÃO PEDRO RIBEIRO', false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert('JOÃO PEDRO RIBEIRO', false)
+ 4 APPPATH\Controllers\Pessoa.php(32): CodeIgniter\BaseModel->save('JOÃO PEDRO RIBEIRO')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->store()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:13:30 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:13:37 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:13:37 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:13:43 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:13:49 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:14:00 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:14:26 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:14:26 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:14:27 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:14:27 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:14:28 --> Undefined array key "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 APPPATH\Views\Pessoas\home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:22 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:24 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:24 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:25 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:25 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:26 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:26 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:27 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:27 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:28 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:29 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:16:30 --> Undefined constant "id"
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:17:27 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:17:27 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:17:29 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Views\Pessoas\home.php on line 26.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(18): view('pessoas/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:20:24 --> Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\Pessoa.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 04:20:27 --> Call to undefined function App\Controllers\dump()
+in APPPATH\Controllers\Pessoa.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:47:58 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:48:00 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:48:03 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:49:26 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:49:27 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:49:28 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:49:30 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:50:43 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:50:44 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:51:16 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:51:44 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:52:15 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:52:15 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:52:32 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:52:32 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:52:40 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:52:52 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 11:52:52 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:01:38 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:01:50 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:02:44 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:02:44 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:04:22 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:05:56 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:05:56 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:06:39 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Pessoa.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:17:07 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(49): view('pessoas/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:17:40 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(49): view('pessoas/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:17:41 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(49): view('pessoas/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:25:18 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(49): view('pessoas/form')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:26:17 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(49): view('pessoas/form')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:26:18 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(49): view('pessoas/form')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:26:20 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(49): view('pessoas/form')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:26:35 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(49): view('pessoas/form')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:26:54 --> Invalid file: "pessoas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(49): view('pessoas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:27:00 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(30): view('pessoas/form')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->create()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:27:27 --> Invalid file: "pessoas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(51): view('pessoas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:27:51 --> Undefined variable $pessoa
+in APPPATH\Views\Pessoas\form.php on line 15.
+ 1 APPPATH\Views\Pessoas\form.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\form.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(31): view('pessoas/form')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:28:14 --> Invalid file: "pessoas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(52): view('pessoas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:28:16 --> Undefined variable $pessoa
+in APPPATH\Views\Pessoas\form.php on line 15.
+ 1 APPPATH\Views\Pessoas\form.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\form.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(31): view('pessoas/form')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:28:33 --> Undefined variable $pessoa
+in APPPATH\Views\Pessoas\form.php on line 15.
+ 1 APPPATH\Views\Pessoas\form.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\form.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(31): view('pessoas/form')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:29:54 --> Invalid file: "pessoas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(52): view('pessoas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:30:30 --> Invalid file: "pessoas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pessoas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas', [], true)
+ 3 APPPATH\Controllers\Pessoa.php(52): view('pessoas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:30:46 --> Undefined variable $titulo
+in APPPATH\Views\Pessoas\home.php on line 5.
+ 1 APPPATH\Views\Pessoas\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/home', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(52): view('pessoas/home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:32:25 --> Call to undefined function form_open()
+in APPPATH\Views\Pessoas\form.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 4 APPPATH\Controllers\Pessoa.php(31): view('pessoas/form')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->create()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
+CRITICAL - 2023-05-11 12:40:47 --> Undefined variable $pessoa
+in APPPATH\Views\Pessoas\form.php on line 15.
+ 1 APPPATH\Views\Pessoas\form.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pessoa', 'E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\form.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\xampp\\htdocs\\cge\\app\\Views\\Pessoas\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pessoas/form', [], true)
+ 5 APPPATH\Controllers\Pessoa.php(29): view('pessoas/form')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pessoa->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\cge\\public\\index.php')
